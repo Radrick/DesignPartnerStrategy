@@ -1,0 +1,10 @@
+#Ignore files
+*.vsidx
+*.cache
+*.dll
+*.pdb
+
+#Ignore folders
+*.vs/
+*obj/
+*bin/
