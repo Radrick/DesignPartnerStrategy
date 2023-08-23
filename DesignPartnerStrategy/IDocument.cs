@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DesignPartnerStrategy
 {
-    interface Document
+    interface IDocument
     {
         String Cadastra(BusinessPartner businessPartner);
     }

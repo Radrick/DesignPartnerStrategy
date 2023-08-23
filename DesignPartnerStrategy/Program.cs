@@ -6,8 +6,8 @@ namespace DesignPartnerStrategy
     {
         static void Main(string[] args)
         {
-            Document invoices = new Invoices();
-            Document purchaseInvoices = new PurchaseInvoices();
+            IDocument invoices = new Invoices();
+            IDocument purchaseInvoices = new PurchaseInvoices();
 
             BusinessPartner businessPartner = new BusinessPartner("C00001");
 

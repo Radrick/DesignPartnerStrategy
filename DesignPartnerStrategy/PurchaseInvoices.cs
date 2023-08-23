@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DesignPartnerStrategy
 {
-    public class PurchaseInvoices : Document
+    public class PurchaseInvoices : IDocument
     {
         public String Cadastra(BusinessPartner businessPartner)
         {
